@@ -210,7 +210,6 @@ export default function StationDetails() {
                     <View style={styles.stat}>
                       <Clock size={16} color={colors.primary} />
                       <ChargingTimeCalculator />
-                      </Text>
                     </View>
                   )}
                 </View>
