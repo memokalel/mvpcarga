@@ -209,8 +209,7 @@ export default function StationDetails() {
                   {userVehicle && (
                     <View style={styles.stat}>
                       <Clock size={16} color={colors.primary} />
-                      <Text style={[styles.statText, { color: colors.primary }]}>
-                        ~45min
+                      <ChargingTimeCalculator />
                       </Text>
                     </View>
                   )}
